@@ -1,0 +1,102 @@
+.header {
+    display: flex;
+    width: 100%;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 15px 15px 0 0;
+    justify-content: space-between;
+    align-items: center;
+    .id {
+        flex: 1;
+        text-align: center;
+    }
+    .name {
+        flex: 3;
+        text-align: center;
+    }
+    .dob {
+        flex: 1;
+        text-align: center;
+    }
+    .gpa {
+        flex: 2;
+        text-align: center;
+    }
+    .action {
+        flex: 1;
+        text-align: center;
+    }
+}
+
+.body {
+    width: 100%;
+    padding: 10px;
+    // border: 1px solid #000;
+    // border-radius: 0 0 15px 15px;
+    .wrapper {
+        width: 100%;
+        display: flex;
+        padding: 10px 0;
+        justify-content: space-between;
+        background-color: #4b4b4b;
+        align-items: center;
+        border-radius: 10px;
+        margin: 10px 0;
+        .name {
+            flex: 3;
+            text-align: left;
+            padding-left: 20px;
+            color: white;
+        }
+        .dob {
+            flex: 1;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 0;
+        }
+        .gpa {
+            flex: 2;
+            text-align: center;
+            span {
+                padding: 5px 10px;
+                border: 1px solid white;
+                color: white;
+                background-color: #2a2a2a;
+                padding: 5px 20px;
+                border-radius: 10px;
+            }
+        }
+        .action {
+            flex: 1;
+            text-align: center;
+            svg {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.dob-wrapper {
+    background-color: #2a2a2a;
+    border: 1px solid white;
+    margin-left: 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    .month {
+        color: white;
+        font-size: 17px;
+    }
+    .year {
+        color: white;
+        font-size: 12px;
+    }
+    .day {
+        color: white;
+        font-size: 27px;
+        font-weight: 600;
+    }
+}

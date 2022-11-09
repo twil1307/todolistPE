@@ -1,0 +1,61 @@
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.labelInput {
+    // display: flex;
+    // align-items: center;
+}
+
+.input-field {
+    padding: 10px 0;
+    label {
+        font-weight: 700;
+        padding-bottom: 5px;
+    }
+}
+
+.wrapper {
+    padding: 0 30px;
+}
+
+.input-container {
+    background-color: #92d8ee;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.falseid {
+    color: red;
+}
+
+.falseidInput {
+    outline: red;
+    color: red;
+}
+
+.action {
+    display: flex;
+    justify-content: end;
+    button {
+        background-color: #02005d;
+        outline: none;
+        border: none;
+        padding: 15px 30px;
+        border-radius: 10px;
+        margin-left: 15px;
+    }
+}
+
+.input-data {
+    padding-bottom: 20px;
+    input {
+        outline: none;
+        border: 0.5px solid rgba(128, 128, 128, 0.4);
+        &:focus {
+            border: 2px solid black;
+        }
+    }
+}
